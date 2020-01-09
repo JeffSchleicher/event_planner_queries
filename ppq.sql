@@ -1,3 +1,4 @@
+--on corporate sql server
 with cteDatesToProcess as (
 select cal_date from stores..sal_fiscal_calendar where calendar_week_end 
 	in(
